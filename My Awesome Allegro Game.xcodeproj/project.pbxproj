@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9FB92FC192DCF2800F87536 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB92FB192DCF2800F87536 /* Cocoa.framework */; };
+		E9FB9306192DCF2800F87536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9FB9304192DCF2800F87536 /* InfoPlist.strings */; };
+		E9FB9308192DCF2800F87536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB9307192DCF2800F87536 /* main.m */; };
+		E9FB930C192DCF2800F87536 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E9FB930A192DCF2800F87536 /* Credits.rtf */; };
+		E9FB930F192DCF2800F87536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB930E192DCF2800F87536 /* AppDelegate.m */; };
+		E9FB9312192DCF2800F87536 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FB9310192DCF2800F87536 /* MainMenu.xib */; };
+		E9FB9314192DCF2800F87536 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FB9313192DCF2800F87536 /* Images.xcassets */; };
+		E9FB931B192DCF2800F87536 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB931A192DCF2800F87536 /* XCTest.framework */; };
+		E9FB931C192DCF2800F87536 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB92FB192DCF2800F87536 /* Cocoa.framework */; };
+		E9FB9324192DCF2800F87536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9FB9322192DCF2800F87536 /* InfoPlist.strings */; };
+		E9FB9326192DCF2800F87536 /* My_Awesome_Allegro_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB9325192DCF2800F87536 /* My_Awesome_Allegro_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9FB931D192DCF2800F87536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9FB92F0192DCF2800F87536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9FB92F7192DCF2800F87536;
+			remoteInfo = "My Awesome Allegro Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9FB92F8192DCF2800F87536 /* My Awesome Allegro Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Awesome Allegro Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FB92FB192DCF2800F87536 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9FB92FE192DCF2800F87536 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E9FB92FF192DCF2800F87536 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9FB9300192DCF2800F87536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9FB9303192DCF2800F87536 /* My Awesome Allegro Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Awesome Allegro Game-Info.plist"; sourceTree = "<group>"; };
+		E9FB9305192DCF2800F87536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9FB9307192DCF2800F87536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9FB9309192DCF2800F87536 /* My Awesome Allegro Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Awesome Allegro Game-Prefix.pch"; sourceTree = "<group>"; };
+		E9FB930B192DCF2800F87536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E9FB930D192DCF2800F87536 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9FB930E192DCF2800F87536 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9FB9311192DCF2800F87536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E9FB9313192DCF2800F87536 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9FB9319192DCF2800F87536 /* My Awesome Allegro GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Awesome Allegro GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FB931A192DCF2800F87536 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9FB9321192DCF2800F87536 /* My Awesome Allegro GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Awesome Allegro GameTests-Info.plist"; sourceTree = "<group>"; };
+		E9FB9323192DCF2800F87536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9FB9325192DCF2800F87536 /* My_Awesome_Allegro_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Awesome_Allegro_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9FB92F5192DCF2800F87536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FB92FC192DCF2800F87536 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FB9316192DCF2800F87536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FB931C192DCF2800F87536 /* Cocoa.framework in Frameworks */,
+				E9FB931B192DCF2800F87536 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9FB92EF192DCF2800F87536 = {
+			isa = PBXGroup;
+			children = (
+				E9FB9301192DCF2800F87536 /* My Awesome Allegro Game */,
+				E9FB931F192DCF2800F87536 /* My Awesome Allegro GameTests */,
+				E9FB92FA192DCF2800F87536 /* Frameworks */,
+				E9FB92F9192DCF2800F87536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9FB92F9192DCF2800F87536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB92F8192DCF2800F87536 /* My Awesome Allegro Game.app */,
+				E9FB9319192DCF2800F87536 /* My Awesome Allegro GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9FB92FA192DCF2800F87536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB92FB192DCF2800F87536 /* Cocoa.framework */,
+				E9FB931A192DCF2800F87536 /* XCTest.framework */,
+				E9FB92FD192DCF2800F87536 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9FB92FD192DCF2800F87536 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB92FE192DCF2800F87536 /* AppKit.framework */,
+				E9FB92FF192DCF2800F87536 /* CoreData.framework */,
+				E9FB9300192DCF2800F87536 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E9FB9301192DCF2800F87536 /* My Awesome Allegro Game */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB930D192DCF2800F87536 /* AppDelegate.h */,
+				E9FB930E192DCF2800F87536 /* AppDelegate.m */,
+				E9FB9310192DCF2800F87536 /* MainMenu.xib */,
+				E9FB9313192DCF2800F87536 /* Images.xcassets */,
+				E9FB9302192DCF2800F87536 /* Supporting Files */,
+			);
+			path = "My Awesome Allegro Game";
+			sourceTree = "<group>";
+		};
+		E9FB9302192DCF2800F87536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB9303192DCF2800F87536 /* My Awesome Allegro Game-Info.plist */,
+				E9FB9304192DCF2800F87536 /* InfoPlist.strings */,
+				E9FB9307192DCF2800F87536 /* main.m */,
+				E9FB9309192DCF2800F87536 /* My Awesome Allegro Game-Prefix.pch */,
+				E9FB930A192DCF2800F87536 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9FB931F192DCF2800F87536 /* My Awesome Allegro GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB9325192DCF2800F87536 /* My_Awesome_Allegro_GameTests.m */,
+				E9FB9320192DCF2800F87536 /* Supporting Files */,
+			);
+			path = "My Awesome Allegro GameTests";
+			sourceTree = "<group>";
+		};
+		E9FB9320192DCF2800F87536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB9321192DCF2800F87536 /* My Awesome Allegro GameTests-Info.plist */,
+				E9FB9322192DCF2800F87536 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9FB92F7192DCF2800F87536 /* My Awesome Allegro Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FB9329192DCF2800F87536 /* Build configuration list for PBXNativeTarget "My Awesome Allegro Game" */;
+			buildPhases = (
+				E9FB92F4192DCF2800F87536 /* Sources */,
+				E9FB92F5192DCF2800F87536 /* Frameworks */,
+				E9FB92F6192DCF2800F87536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Awesome Allegro Game";
+			productName = "My Awesome Allegro Game";
+			productReference = E9FB92F8192DCF2800F87536 /* My Awesome Allegro Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9FB9318192DCF2800F87536 /* My Awesome Allegro GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FB932C192DCF2800F87536 /* Build configuration list for PBXNativeTarget "My Awesome Allegro GameTests" */;
+			buildPhases = (
+				E9FB9315192DCF2800F87536 /* Sources */,
+				E9FB9316192DCF2800F87536 /* Frameworks */,
+				E9FB9317192DCF2800F87536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FB931E192DCF2800F87536 /* PBXTargetDependency */,
+			);
+			name = "My Awesome Allegro GameTests";
+			productName = "My Awesome Allegro GameTests";
+			productReference = E9FB9319192DCF2800F87536 /* My Awesome Allegro GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9FB92F0192DCF2800F87536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					E9FB9318192DCF2800F87536 = {
+						TestTargetID = E9FB92F7192DCF2800F87536;
+					};
+				};
+			};
+			buildConfigurationList = E9FB92F3192DCF2800F87536 /* Build configuration list for PBXProject "My Awesome Allegro Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9FB92EF192DCF2800F87536;
+			productRefGroup = E9FB92F9192DCF2800F87536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9FB92F7192DCF2800F87536 /* My Awesome Allegro Game */,
+				E9FB9318192DCF2800F87536 /* My Awesome Allegro GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9FB92F6192DCF2800F87536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FB9306192DCF2800F87536 /* InfoPlist.strings in Resources */,
+				E9FB9314192DCF2800F87536 /* Images.xcassets in Resources */,
+				E9FB930C192DCF2800F87536 /* Credits.rtf in Resources */,
+				E9FB9312192DCF2800F87536 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FB9317192DCF2800F87536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FB9324192DCF2800F87536 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9FB92F4192DCF2800F87536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FB930F192DCF2800F87536 /* AppDelegate.m in Sources */,
+				E9FB9308192DCF2800F87536 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FB9315192DCF2800F87536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FB9326192DCF2800F87536 /* My_Awesome_Allegro_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9FB931E192DCF2800F87536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9FB92F7192DCF2800F87536 /* My Awesome Allegro Game */;
+			targetProxy = E9FB931D192DCF2800F87536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9FB9304192DCF2800F87536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FB9305192DCF2800F87536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9FB930A192DCF2800F87536 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FB930B192DCF2800F87536 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E9FB9310192DCF2800F87536 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FB9311192DCF2800F87536 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E9FB9322192DCF2800F87536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FB9323192DCF2800F87536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9FB9327192DCF2800F87536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9FB9328192DCF2800F87536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9FB932A192DCF2800F87536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Awesome Allegro Game/My Awesome Allegro Game-Prefix.pch";
+				INFOPLIST_FILE = "My Awesome Allegro Game/My Awesome Allegro Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9FB932B192DCF2800F87536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Awesome Allegro Game/My Awesome Allegro Game-Prefix.pch";
+				INFOPLIST_FILE = "My Awesome Allegro Game/My Awesome Allegro Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9FB932D192DCF2800F87536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Awesome Allegro Game.app/Contents/MacOS/My Awesome Allegro Game";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Awesome Allegro Game/My Awesome Allegro Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My Awesome Allegro GameTests/My Awesome Allegro GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9FB932E192DCF2800F87536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Awesome Allegro Game.app/Contents/MacOS/My Awesome Allegro Game";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Awesome Allegro Game/My Awesome Allegro Game-Prefix.pch";
+				INFOPLIST_FILE = "My Awesome Allegro GameTests/My Awesome Allegro GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9FB92F3192DCF2800F87536 /* Build configuration list for PBXProject "My Awesome Allegro Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FB9327192DCF2800F87536 /* Debug */,
+				E9FB9328192DCF2800F87536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FB9329192DCF2800F87536 /* Build configuration list for PBXNativeTarget "My Awesome Allegro Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FB932A192DCF2800F87536 /* Debug */,
+				E9FB932B192DCF2800F87536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9FB932C192DCF2800F87536 /* Build configuration list for PBXNativeTarget "My Awesome Allegro GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FB932D192DCF2800F87536 /* Debug */,
+				E9FB932E192DCF2800F87536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9FB92F0192DCF2800F87536 /* Project object */;
+}
